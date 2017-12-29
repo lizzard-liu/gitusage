@@ -1,0 +1,29 @@
+git add gitcmd.txt
+git commit -m "comment"
+git status
+git diff
+
+
+git reset --hard HEAD^       # revert to prvious
+git reset HEAD gitcmd.txt    # discard stage
+git log --graph
+git reflog
+
+git diff HEAD -- gitcmd.txt  # diff repo and local
+
+git checkout -- gitcmd.txt   # discard workspace
+
+
+git remote add origin git@github.com:chanliu3/gitcmd.git
+git remote -v
+git push -u origin mastert 
+
+git clone git@github.com:chanliu3/gitcmd.git
+
+git checkout -b branchname
+git checkout master
+git merge branchname
+
+git cherry-pick
+
+git config -l
