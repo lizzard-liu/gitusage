@@ -27,3 +27,6 @@ git merge branchname
 git cherry-pick
 
 git config -l
+
+
+
